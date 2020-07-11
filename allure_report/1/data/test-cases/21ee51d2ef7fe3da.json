@@ -1,0 +1,152 @@
+{
+  "uid" : "21ee51d2ef7fe3da",
+  "name" : "test_mul[0.1-0.1-0.01]",
+  "fullName" : "testing.test_calc.TestCalc#test_mul",
+  "historyId" : "18560ee80a93c847e2f7d643fb34257b",
+  "time" : {
+    "start" : 1594483634702,
+    "stop" : 1594483634702,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 0.010000000000000002 == 0.01\n +  where 0.010000000000000002 = <bound method Calculator.mul of <pythoncode.calc.Calculator object at 0x000001FC2DE9EA08>>(0.1, 0.1)\n +    where <bound method Calculator.mul of <pythoncode.calc.Calculator object at 0x000001FC2DE9EA08>> = <pythoncode.calc.Calculator object at 0x000001FC2DE9EA08>.mul\n +      where <pythoncode.calc.Calculator object at 0x000001FC2DE9EA08> = <test_calc.TestCalc object at 0x000001FC2DEC7888>.cal",
+  "statusTrace" : "self = <test_calc.TestCalc object at 0x000001FC2DEC7888>, a = 0.1, b = 0.1, result = 0.01\n\n    @pytest.mark.parametrize(\"a,b,result\", yaml.safe_load(open(\"./data/mul.yaml\")))\n    @pytest.mark.mul\n    def test_mul(self,a,b,result):\n        # cal = Calculator()\n        # print(self.cal.mul(a, b))\n>       assert self.cal.mul(a, b) == result\nE       assert 0.010000000000000002 == 0.01\nE        +  where 0.010000000000000002 = <bound method Calculator.mul of <pythoncode.calc.Calculator object at 0x000001FC2DE9EA08>>(0.1, 0.1)\nE        +    where <bound method Calculator.mul of <pythoncode.calc.Calculator object at 0x000001FC2DE9EA08>> = <pythoncode.calc.Calculator object at 0x000001FC2DE9EA08>.mul\nE        +      where <pythoncode.calc.Calculator object at 0x000001FC2DE9EA08> = <test_calc.TestCalc object at 0x000001FC2DEC7888>.cal\n\ntest_calc.py:36: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "calc_remind",
+    "time" : {
+      "start" : 1594483634701,
+      "stop" : 1594483634701,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1594483634644,
+      "stop" : 1594483634644,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 0.010000000000000002 == 0.01\n +  where 0.010000000000000002 = <bound method Calculator.mul of <pythoncode.calc.Calculator object at 0x000001FC2DE9EA08>>(0.1, 0.1)\n +    where <bound method Calculator.mul of <pythoncode.calc.Calculator object at 0x000001FC2DE9EA08>> = <pythoncode.calc.Calculator object at 0x000001FC2DE9EA08>.mul\n +      where <pythoncode.calc.Calculator object at 0x000001FC2DE9EA08> = <test_calc.TestCalc object at 0x000001FC2DEC7888>.cal",
+    "statusTrace" : "self = <test_calc.TestCalc object at 0x000001FC2DEC7888>, a = 0.1, b = 0.1, result = 0.01\n\n    @pytest.mark.parametrize(\"a,b,result\", yaml.safe_load(open(\"./data/mul.yaml\")))\n    @pytest.mark.mul\n    def test_mul(self,a,b,result):\n        # cal = Calculator()\n        # print(self.cal.mul(a, b))\n>       assert self.cal.mul(a, b) == result\nE       assert 0.010000000000000002 == 0.01\nE        +  where 0.010000000000000002 = <bound method Calculator.mul of <pythoncode.calc.Calculator object at 0x000001FC2DE9EA08>>(0.1, 0.1)\nE        +    where <bound method Calculator.mul of <pythoncode.calc.Calculator object at 0x000001FC2DE9EA08>> = <pythoncode.calc.Calculator object at 0x000001FC2DE9EA08>.mul\nE        +      where <pythoncode.calc.Calculator object at 0x000001FC2DE9EA08> = <test_calc.TestCalc object at 0x000001FC2DEC7888>.cal\n\ntest_calc.py:36: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8c86e08d0b6ad5f2",
+      "name" : "stdout",
+      "source" : "8c86e08d0b6ad5f2.txt",
+      "type" : "text/plain",
+      "size" : 28
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "calc_remind::0",
+    "time" : {
+      "start" : 1594483634720,
+      "stop" : 1594483634720,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1594483634751,
+      "stop" : 1594483634751,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "mul"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testing"
+  }, {
+    "name" : "suite",
+    "value" : "test_calc"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCalc"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-V7H9NM2"
+  }, {
+    "name" : "thread",
+    "value" : "12644-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testing.test_calc"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "0.1"
+  }, {
+    "name" : "b",
+    "value" : "0.1"
+  }, {
+    "name" : "result",
+    "value" : "0.01"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "mul" ]
+  },
+  "source" : "21ee51d2ef7fe3da.json",
+  "parameterValues" : [ "0.1", "0.1", "0.01" ]
+}
