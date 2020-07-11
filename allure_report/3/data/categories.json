@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 0.010000000000000002 == 0.01\n +  where 0.010000000000000002 = <bound method Calculator.mul of <pythoncode.calc.Calculator object at 0x00000185E5C27A48>>(0.1, 0.1)\n +    where <bound method Calculator.mul of <pythoncode.calc.Calculator object at 0x00000185E5C27A48>> = <pythoncode.calc.Calculator object at 0x00000185E5C27A48>.mul\n +      where <pythoncode.calc.Calculator object at 0x00000185E5C27A48> = <test_calc.TestCalc object at 0x00000185E5C299C8>.cal",
+      "children" : [ {
+        "name" : "test_mul[第3组]",
+        "uid" : "6176754f3fa28006",
+        "parentUid" : "6fa1f1ec854f1a59e3cd9e2252cd0c59",
+        "status" : "failed",
+        "time" : {
+          "start" : 1594486850286,
+          "stop" : 1594486850286,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0.1", "0.1", "0.01" ]
+      } ],
+      "uid" : "6fa1f1ec854f1a59e3cd9e2252cd0c59"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
