@@ -1,6 +1,6 @@
-#-*- coding: utf-8 -*-
-#被测代码模块
-#实现计算器
+# -*- coding: utf-8 -*-
+# 被测代码模块
+# 实现计算器
 # from decimal import Decimal
 
 class Calculator:
