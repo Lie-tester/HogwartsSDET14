@@ -1,0 +1,11 @@
+add:
+  int: [1,1]
+  minus: [-1,-1]
+  float: [0.1,0.1]
+  bigint: [10000000,999999999]
+  str: [a,b]
+  strandint: [a,3]
+  #{"int":[1,1],"minus":[-1,-1],"float":[0.1,0.1],"bigint":[10000000,999999999],"str":[a,b],"strandint":[a,3]}
+dec: {"int":[0,1],"minus":[-1,-1],"float":[0.1,0.2],"bigint":[10000000,999999999],"str":[a,b],"strandint":[1,a]}
+div: {"int":[2,3],"minus":[-2,-4],"float":[0.02,0.5],"bigint":[10000000,999999999],"str":[a,b],"strandint":[1,a],"zero":[2,0]}
+mul: {"int":[1,0],"minus":[-1,-1],"float":[0.1,0.1],"bigint":[10000000,999999999],"str":[a,b],"strandint":[2,a]}
