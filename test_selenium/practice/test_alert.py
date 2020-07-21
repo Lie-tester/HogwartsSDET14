@@ -7,6 +7,9 @@ from test_selenium.practice.test_base import Base
 
 
 class Testalert(Base):
+    """
+    alert的识别及处理
+    """
 
     def test_alert(self):
         self.driver.get('https://www.runoob.com/try/try.php?filename=jqueryui-api-droppable')

@@ -5,7 +5,9 @@ from test_selenium.practice.test_base import Base
 
 
 class TestClick(Base):
-
+    """
+    各种点击操作
+    """
     def test_click(self):
         self.driver.get('http://sahitest.com/demo/clicks.htm')
         ele_click = self.driver.find_element_by_xpath('/html/body/form/input[3]')

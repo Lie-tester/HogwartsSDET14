@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 from selenium.webdriver.common.by import By
-
 from test_selenium.test_wework.base_page import Base
 
 

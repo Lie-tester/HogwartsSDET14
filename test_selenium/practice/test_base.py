@@ -3,6 +3,9 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
 class Base:
+    """
+    复用浏览器
+    """
 
     def setup(self):
         option = Options()

@@ -5,7 +5,9 @@ from selenium import webdriver
 
 
 class Base:
-
+    """
+    识别多浏览器
+    """
     def setup(self):
         browser = os.getenv('browser')
         print(browser)

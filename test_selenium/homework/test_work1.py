@@ -6,12 +6,13 @@ from selenium.webdriver.chrome.options import Options
 
 
 class Testwork():
-
+    """
+    cookie的使用
+    """
     def setup(self):
         # option = Options()
         # option.debugger_address = '127.0.0.1:9222'
         self.driver = webdriver.Chrome()
-
         self.driver.maximize_window()
         self.driver.implicitly_wait(5)
 

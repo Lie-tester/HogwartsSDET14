@@ -7,7 +7,9 @@ from test_selenium.practice.test_base import Base
 
 
 class TestSwitch(Base):
-
+    """
+    测试用例
+    """
     def test_switchwindows(self):
         # 打开注册页面
         self.driver.get('http://www.baidu.com')

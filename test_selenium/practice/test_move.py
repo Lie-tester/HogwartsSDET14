@@ -7,7 +7,9 @@ from test_selenium.practice.test_base import Base
 
 
 class TestMove(Base):
-
+    """
+    鼠标拖拉拽
+    """
     def test_moveto(self):
         self.driver.get('https://www.baidu.com')
         ele = self.driver.find_element_by_id('s-usersetting-top')
