@@ -9,3 +9,4 @@ desired_caps['appPackage'] = 'com.android.settings'
 desired_caps['appActivity'] = 'com.android.settings.Settings'
 driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
 driver.quit()
+
